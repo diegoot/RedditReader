@@ -1,0 +1,28 @@
+.postDetails {
+  width: 80%;
+  margin: 20px auto 0;
+
+  &__title {
+    font-size: 2em;
+    margin-top: 0;
+
+    
+    a {
+      text-decoration: none;
+      color: #000;
+
+      &:hover {
+        color: #09F;
+      }
+    }
+  }
+
+  &__image {
+    max-width: 400px;
+  }
+
+  &__extraInfo {
+    font-size: 0.8em;
+    color: #777777;
+  }
+}

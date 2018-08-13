@@ -1,0 +1,27 @@
+.posts {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+
+  &__list {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  &__details {
+    display: none;
+  }
+
+  @media screen and (min-width: 801px) {
+    &__details {
+      display: block;
+      flex: 2;
+      margin-left: 10px;
+      overflow-y: auto;
+  
+      &--noPost {
+        text-align: center;
+      }
+    }
+  }
+}

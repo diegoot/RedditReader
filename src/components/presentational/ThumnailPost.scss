@@ -1,4 +1,4 @@
-.post {
+.thumbnailPost {
   background-color: #FFFFFF;
   margin: 10px;
   box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.74);
@@ -34,15 +34,5 @@
   &__title {
     flex: 1;
     margin: 8px 0;
-  }
-
-  &__moreDetails {
-    display: none;
-  }
-
-  @media screen and (max-width: 800px) {
-    &__moreDetails {
-      display: block;
-    }
   }
 }

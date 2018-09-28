@@ -6,7 +6,7 @@ The goal of this project is to consume the Reddit API to get access to the posts
 ## How to install and start the project (development mode)
 
 - Go to your console
-- Execute: git clone  https://github.com/diegoot/RedditReader.git
+- git clone  https://github.com/diegoot/RedditReader.git
 - cd RedditReader
 - yarn install
 - yarn start

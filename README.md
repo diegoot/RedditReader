@@ -1,3 +1,5 @@
+## Project description
+
 This project is a small project developed using [ReactJS](https://reactjs.org/) and bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 It does not use [Redux](https://redux.js.org/) for data flow because it is not needed for the purpose of this project.
@@ -5,6 +7,8 @@ It does not use [Redux](https://redux.js.org/) for data flow because it is not n
 For the styles I am using [SASS](https://sass-lang.com/) and [BEM](http://getbem.com/) as a naming convention.
 
 The goal of this project is to consume the Reddit API to get access to the posts in the [funny subreddit](https://www.reddit.com/r/funny/) and then show the first 30 posts. The UI is responsive for mobile and desktop.
+
+#### IMPORTANT: This is the output of an interview test. This might need improvements and/or have incomplete features given the time I had to do it
 
 ## How to install and start the project (development mode)
 
